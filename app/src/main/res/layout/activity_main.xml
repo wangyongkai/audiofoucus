@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RequestAudioFocus"
+        android:onClick="requestAudioFocus"/>
+
+    <Button
+        android:id="@+id/buttona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abandonAudioFocus"
+        android:layout_below="@id/button"
+        android:onClick="abandonAudioFocus"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttona"
+       />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RequestAudioFocus1"
+      android:layout_below="@id/textView"
+        android:onClick="requestAudioFocus1"/>
+
+    <Button
+        android:id="@+id/buttona1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abandonAudioFocus1"
+        android:layout_below="@id/button1"
+        android:onClick="abandonAudioFocus1"/>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttona1"
+        android:layout_alignParentStart="true"
+        />
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RequestAudioFocus2"
+        android:layout_below="@id/textView1"
+        android:onClick="requestAudioFocus2"/>
+
+    <Button
+        android:id="@+id/buttona2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abandonAudioFocus2"
+        android:layout_below="@id/button2"
+        android:onClick="abandonAudioFocus2"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttona2"
+
+       />
+
+
+
+</RelativeLayout>
